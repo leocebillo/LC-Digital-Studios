@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pricing | LC Digital Studios</title>
+  <meta name="description" content="Website and app pricing for new and established businesses, with low monthly maintenance.">
+  <meta property="og:title" content="Pricing | LC Digital Studios">
+  <meta property="og:description" content="Website and app pricing for new and established businesses, with low monthly maintenance.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@500&family=Montserrat:wght@600;700;800;900&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html"><span class="gradient-text">LC</span><small>Digital Studios</small></a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html" aria-current="page">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn" href="contact.html">Get a quote</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Pricing</span>
+          <h1 class="gradient-text pricing-title">Simple pricing</h1>
+          <p>Pay once to build your website or app. After launch, a monthly maintenance plan keeps it updated, secure, and working.</p>
+        </div>
+
+        <div class="pricing-toggle" role="tablist" aria-label="Business type">
+          <button type="button" role="tab" aria-selected="true" data-tier="new">New business</button>
+          <button type="button" role="tab" aria-selected="false" data-tier="established">Established business</button>
+        </div>
+        <p class="pricing-intro" id="pricing-intro">Just getting started? Launch pricing to help you get online.</p>
+
+        <div class="price-cards">
+          <article class="price-card">
+            <span class="price-card-label">Website</span>
+            <h3>Website</h3>
+            <p class="price"><strong data-new="$100" data-established="$185">$100</strong><span>one-time build</span></p>
+            <p class="price price--monthly"><strong data-new="$65" data-established="$100">$65</strong><span>/ month maintenance</span></p>
+            <p class="negotiable" id="negotiable" hidden>Build price negotiable</p>
+            <p class="extra-fee">+ domain name (your web address, about $10–20 a year)</p>
+            <ul class="check-list">
+              <li>Custom design for your brand</li>
+              <li>Mobile-friendly and fast</li>
+              <li>Contact or booking form</li>
+              <li>Monthly updates and fixes</li>
+            </ul>
+          </article>
+
+          <article class="price-card">
+            <span class="price-card-label">App · one platform</span>
+            <h3>iOS or Android</h3>
+            <p class="price"><strong data-new="$40" data-established="$80">$40</strong><span>one-time build</span></p>
+            <p class="price price--monthly"><strong data-new="$30" data-established="$60">$30</strong><span>/ month maintenance</span></p>
+            <p class="extra-fee">+ store fee paid by client (Apple $99 a year, or Google Play $25 one-time)</p>
+            <ul class="check-list">
+              <li>Built for iPhone or Android</li>
+              <li>App store publishing</li>
+              <li>Bug fixes and updates</li>
+            </ul>
+          </article>
+
+          <article class="price-card price-card--featured">
+            <span class="price-card-label">App · best value</span>
+            <h3>iOS and Android</h3>
+            <p class="price"><strong data-new="$75" data-established="$125">$75</strong><span>one-time build</span></p>
+            <p class="price price--monthly"><strong data-new="$50" data-established="$85">$50</strong><span>/ month maintenance</span></p>
+            <p class="extra-fee">+ store fees paid by client (Apple $99 a year and Google Play $25 one-time)</p>
+            <ul class="check-list">
+              <li>Reach every customer</li>
+              <li>Both app stores</li>
+              <li>Bug fixes and updates</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="pricing-note">Domain and app store fees are paid by the client, so your website and app are registered in your name. Social media management and photography are quoted per project. <a href="contact.html">Ask for a quote</a>.</p>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Questions</span>
+          <h2>Pricing FAQ</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Which pricing applies to me?</summary>
+            <p>New business pricing is for businesses that are just starting out. Established business pricing is for businesses that have been open for a while. Not sure? Ask and we'll figure it out together.</p>
+          </details>
+          <details>
+            <summary>What does monthly maintenance cover?</summary>
+            <p>Updates, bug fixes, small changes to text and photos, and making sure your site or app keeps working. When something needs to change, you just let us know.</p>
+          </details>
+          <details>
+            <summary>Why do I pay the domain and app store fees?</summary>
+            <p>Paying these yourself means your web address and app listings are registered in your name, so you always own them.</p>
+          </details>
+          <details>
+            <summary>How much is social media and photography?</summary>
+            <p>It depends on how often you want posts and photo shoots, so we price these per project. Reach out and we'll put together a quote.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+        <h2>Ready to get your business online?</h2>
+        <a class="btn" href="contact.html">Get a free quote</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span><span class="footer-logo gradient-text">LC</span> Digital Studios</span>
+      <span>Websites • Apps • Social Media • Photography</span>
+      <span>
+        <a href="https://www.instagram.com/lc_digitalstudios" target="_blank" rel="noopener">Instagram</a> ·
+        <a href="https://www.tiktok.com/@lc_digitalstudios" target="_blank" rel="noopener">TikTok</a> ·
+        © 2026
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

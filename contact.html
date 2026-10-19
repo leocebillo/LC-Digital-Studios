@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Contact | LC Digital Studios</title>
+  <meta name="description" content="Get a free quote from LC Digital Studios. Call, email, or send a request online.">
+  <meta property="og:title" content="Contact | LC Digital Studios">
+  <meta property="og:description" content="Get a free quote from LC Digital Studios. Call, email, or send a request online.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@500&family=Montserrat:wght@600;700;800;900&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html"><span class="gradient-text">LC</span><small>Digital Studios</small></a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <a class="btn" href="contact.html">Get a quote</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container contact-layout">
+        <div class="contact-info">
+          <span class="eyebrow">Start a project</span>
+          <h1>Let's get your business <span class="gradient-text">online.</span></h1>
+          <p>Call, email, or send a DM and we'll get back to you within a day with next steps and a free quote.</p>
+          <ul class="contact-methods">
+            <li>
+              <span class="contact-label">Email</span>
+              <a class="contact-value" id="contact-email" href="mailto:leocebillo@leocedillo.dev">leocebillo@leocedillo.dev</a>
+              <button type="button" class="btn btn--small" data-copy="contact-email">Copy</button>
+            </li>
+            <li>
+              <span class="contact-label">Phone</span>
+              <a class="contact-value" id="contact-phone" href="tel:+19569744500">(956) 974-4500</a>
+              <button type="button" class="btn btn--small" data-copy="contact-phone">Copy</button>
+            </li>
+            <li>
+              <span class="contact-label">Instagram</span>
+              <a class="contact-value" href="https://www.instagram.com/lc_digitalstudios" target="_blank" rel="noopener">@lc_digitalstudios</a>
+            </li>
+            <li>
+              <span class="contact-label">TikTok</span>
+              <a class="contact-value" href="https://www.tiktok.com/@lc_digitalstudios" target="_blank" rel="noopener">@lc_digitalstudios</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="quote-form" id="quote-form" novalidate>
+          <label>
+            Your name
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Business name
+            <input type="text" name="business" autocomplete="organization">
+          </label>
+          <label>
+            Email or phone
+            <input type="text" name="contact" autocomplete="email" required>
+          </label>
+
+          <fieldset>
+            <legend>What do you need?</legend>
+            <div class="service-options">
+              <input type="checkbox" name="services" id="need-website" value="Website"><label for="need-website">Website</label>
+              <input type="checkbox" name="services" id="need-app" value="App"><label for="need-app">App</label>
+              <input type="checkbox" name="services" id="need-social" value="Social media"><label for="need-social">Social media</label>
+              <input type="checkbox" name="services" id="need-photo" value="Photography"><label for="need-photo">Photography</label>
+            </div>
+          </fieldset>
+
+          <label>
+            Tell us more
+            <textarea name="message" rows="4" placeholder="What does your business do, and what would you like help with?"></textarea>
+          </label>
+
+          <button class="btn" type="submit">Send request</button>
+          <div class="form-status" id="form-status" role="status" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span><span class="footer-logo gradient-text">LC</span> Digital Studios</span>
+      <span>Websites • Apps • Social Media • Photography</span>
+      <span>
+        <a href="https://www.instagram.com/lc_digitalstudios" target="_blank" rel="noopener">Instagram</a> ·
+        <a href="https://www.tiktok.com/@lc_digitalstudios" target="_blank" rel="noopener">TikTok</a> ·
+        © 2026
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
